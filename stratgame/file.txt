@@ -1,0 +1,82 @@
+Stratagem
+
+Beta v1.0
+
+
+A strategy game with hotseat multiplayer in which one tries to destroy an opposing castle.
+
+In the game you can build units and buildings to destroy your opponent. At present there
+are four units 
+and four buildings.
+
+
+-------------------------------------------------------------------------------------------------------
+Game Systems
+
+-------------------------------------------------------------------------------------------------------
+
+
+Both sides start with their castle, 5 gold, and some AP(action points). Each turn you gain gold acording
+
+to the buildings you have built. Gold is distributed as follows:
+
+Wall - 1 Gold
+
+Castle - 2 Gold
+
+Sawmill - 3 Gold
+
+
+The four possible buildings and costs are as follows:
+Sawmill (option 1) - 5 Gold
+Tent (option 2) - 7 Gold
+Graveyard (option 3) - 6 Gold
+Wall (option 4) - 4 Gold
+
+You gain AP as the game progresses, the first player starts with only one, the second player starts with two.
+
+Each turn that passes yields two more AP for each player, capping at 12 AP. All actions in the game require AP.
+
+
+The Tent and Graveyard allow the player to build units. The two buldings allow for different types of units
+
+to be built, as follows:
+Graveyard - Skeletons and Cyclops'
+
+Tent - Knights and Mages
+
+
+
+Stats as follows:
+
+Skeleton - Cost=3, movement distance=4, Health=5
+
+Cyclops - Cost=5, movement distance=2, Health=7
+
+Knight - Cost=4, movement distance=3, Health=6
+
+Mage - Cost=6, movement distance=5, Health=4
+
+
+
+Attack is equivalent to health, and enough damage must be dealt in a single turn to destroy units and buildings,
+
+except for the castles. All buildings have 10 health, except for the castles, which have 30 health.
+
+
+-------------------------------------------------------------------------------------------------------
+ 
+Controls
+
+-------------------------------------------------------------------------------------------------------
+
+WASD to move the cursor and units. Space bar to perform actions. Press space twice to perform actions.
+
+When using a unit, if they are within attacking range
+ of an enemy, they can attack, or move. After pressing Space
+pressing A will allow the player to move the unit, pressing D will allow the player to attack an enemy unit or
+structure. For all other purposes, simply press space twice. Press E to cancel any actions,it will also end your turn.
+
+
+You can only build buildings on empty spaces on your side of the field, and you cannot build buildings adjacent to
+each other. Upon ending your turn, the colors of both sides will switch, do not be alarmed, this will be fixed.
